@@ -27,7 +27,7 @@ module.exports = {
   create(context) {
     return {
       CallExpression(node) {
-        if (node.callee.object.name === "Atomics") {
+        if ("object" in node.callee && node.callee.object.name === "Atomics") {
           context.report({
             node,
             message: "CloudFront Functions do not support ES8 Atomics."
