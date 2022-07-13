@@ -1,0 +1,25 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 8
+  },
+  "rules": {
+    "cloudfront-functions/no-import": "error",
+    "cloudfront-functions/no-array-from": "error",
+    "cloudfront-functions/no-let": "error",
+    "cloudfront-functions/no-const": "error",
+    "cloudfront-functions/no-eval": "error",
+    "cloudfront-functions/no-new-function": "error",
+    "cloudfront-functions/no-new-maps": "error",
+    "cloudfront-functions/no-new-sets": "error",
+    "cloudfront-functions/no-new-promises": "error",
+    "cloudfront-functions/no-new-symbols": "error",
+    "cloudfront-functions/no-new-shared-array-buffer": "error",
+    "cloudfront-functions/no-timers": "error",
+    "cloudfront-functions/no-for-of": "error",
+    "cloudfront-functions/no-default-parameter-values": "error",
+    "cloudfront-functions/no-use-strict": "warn",
+    "cloudfront-functions/restrict-require": "error",
+    "cloudfront-functions/no-atomics": "error"
+  },
+  "plugins": ["cloudfront-functions"]
+}
