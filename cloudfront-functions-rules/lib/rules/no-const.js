@@ -1,5 +1,5 @@
 /**
- * @fileoverview Disallows using the 'let' statement.
+ * @fileoverview Disallows using the 'const' statement.
  * @author Haven King
  */
 "use strict";
@@ -15,7 +15,7 @@ module.exports = {
   meta: {
     type: 'problem', // `problem`, `suggestion`, or `layout`
     docs: {
-      description: "Disallows using the 'let' statement.",
+      description: "Disallows using the 'const' statement.",
       category: "Fill me in",
       recommended: false,
       url: null, // URL to the documentation page for this rule
